@@ -1,0 +1,76 @@
+html{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.navbar-brand,
+.text-cent {
+    font-family: "Tac One", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.text-colored{
+    color: rgb(5, 26, 254);
+}
+
+#cabecalho .nav .nav-link.active,
+#nossa-loja .nav .nav-link.active,
+#contato button{
+background-color: rgb(99, 221, 255);
+color: black;
+}
+
+
+#cabecalho .nav .nav-link,
+.navbar .navbar-brand{
+    color: #fff;
+}
+
+#nossa-loja .nav .nav-link{
+    color: rgb(226, 43, 192);
+}
+
+.text-ura{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.navbar-toggler{
+    background-color: rgba(0, 255, 255, 0.66);
+    border-radius: 5px;
+}
+
+#sobre-a-organizacao img{
+    width: 100%;
+    height: 800px;
+}
+
+#sobre-a-organizacao,
+#nossa-loja{
+    background-color: rgba(143, 232, 232, 0.286);
+}
+
+#exploracoes img{
+    height: 15em;
+}
+
+.text-colored{
+    color: rgb(51, 173, 207);
+}
+
+.social-links{
+    list-style: none;
+    display: flex;
+}
+
+@media (max-width: 767px){
+    #sobre-a-organizacao img{
+        height: 180px;
+    }
+}
+
